@@ -1,0 +1,21 @@
+{
+  "name": "video-converstion-script",
+  "version": "1.0.0",
+  "description": "Converts Videos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "asconvert": "./index.js"
+  },
+  "author": "Alex Standiford",
+  "license": "MIT",
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.0.15",
+    "@ffprobe-installer/ffprobe": "^1.0.9",
+    "commander": "^2.16.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "junk": "^2.1.0"
+  }
+}
